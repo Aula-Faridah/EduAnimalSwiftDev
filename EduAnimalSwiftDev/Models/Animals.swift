@@ -8,5 +8,5 @@
 import Foundation
 
 struct Animals: Codable, Identifiable {
-    let id, name, image: String
+    let id, name: String
 }
