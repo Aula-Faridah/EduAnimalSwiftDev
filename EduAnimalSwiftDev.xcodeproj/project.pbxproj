@@ -31,7 +31,7 @@
 		5236AB0D2BE379A500A369F8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB0C2BE379A500A369F8 /* DetailView.swift */; };
 		5236AB102BE3826600A369F8 /* AnimalDescVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB0F2BE3826600A369F8 /* AnimalDescVM.swift */; };
 		5236AB132BE3828000A369F8 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 5236AB122BE3828000A369F8 /* GoogleGenerativeAI */; };
-		5236AB152BE3A24C00A369F8 /* AudioVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB142BE3A24B00A369F8 /* AudioVM.swift */; };
+		5236AB182BE3A61D00A369F8 /* AudioPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB172BE3A61D00A369F8 /* AudioPlayerHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,7 +59,7 @@
 		5236AAE32BE3735100A369F8 /* wolf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wolf.mp3; sourceTree = "<group>"; };
 		5236AB0C2BE379A500A369F8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		5236AB0F2BE3826600A369F8 /* AnimalDescVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDescVM.swift; sourceTree = "<group>"; };
-		5236AB142BE3A24B00A369F8 /* AudioVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioVM.swift; sourceTree = "<group>"; };
+		5236AB172BE3A61D00A369F8 /* AudioPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +93,7 @@
 		5236AAB82BE3719600A369F8 /* EduAnimalSwiftDev */ = {
 			isa = PBXGroup;
 			children = (
+				5236AB162BE3A5FA00A369F8 /* Helper */,
 				5236AB0E2BE3825300A369F8 /* ViewModel */,
 				5236AACC2BE3724100A369F8 /* App */,
 				5236AACD2BE3727A00A369F8 /* Extensions */,
@@ -196,9 +197,16 @@
 			isa = PBXGroup;
 			children = (
 				5236AB0F2BE3826600A369F8 /* AnimalDescVM.swift */,
-				5236AB142BE3A24B00A369F8 /* AudioVM.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5236AB162BE3A5FA00A369F8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5236AB172BE3A61D00A369F8 /* AudioPlayerHelper.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,11 +302,11 @@
 				5236AB102BE3826600A369F8 /* AnimalDescVM.swift in Sources */,
 				5236AAD12BE372D600A369F8 /* Animals.swift in Sources */,
 				5236AABC2BE3719600A369F8 /* ContentView.swift in Sources */,
-				5236AB152BE3A24C00A369F8 /* AudioVM.swift in Sources */,
 				5236AB0D2BE379A500A369F8 /* DetailView.swift in Sources */,
 				5236AAD72BE3732600A369F8 /* HomeView.swift in Sources */,
 				5236AABA2BE3719600A369F8 /* EduAnimalSwiftDevApp.swift in Sources */,
 				5236AAD42BE372FE00A369F8 /* MotionAnimationView.swift in Sources */,
+				5236AB182BE3A61D00A369F8 /* AudioPlayerHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
