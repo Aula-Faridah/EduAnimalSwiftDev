@@ -33,7 +33,7 @@ class AnimalDescVM: ObservableObject {
         
         let model = GenerativeModel(name: "gemini-pro", apiKey: apiKey)
         
-        let prompt = "Give me one unique fact about \(animal) in no more than 30 words."
+        let prompt = "Give me one unique fact about \(animal) in simple language for kids, no more than 30 words."
         
         do {
             let response = try await model.generateContent(prompt)

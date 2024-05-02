@@ -67,7 +67,7 @@ struct MotionAnimationView: View {
                         }
                 }
             }
-            .ignoresSafeArea()
+            .ignoresSafeArea(.all)
             .drawingGroup()
         })
     }
