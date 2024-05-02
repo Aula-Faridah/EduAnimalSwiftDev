@@ -58,7 +58,7 @@ struct HomeView: View {
                         }
                     })
                 }
-                .padding(.top, 50)
+                .padding(.vertical, 80)
             }
             //.ignoresSafeArea(edges: .all)
 

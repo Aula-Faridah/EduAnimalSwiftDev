@@ -32,6 +32,7 @@
 		5236AB102BE3826600A369F8 /* AnimalDescVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB0F2BE3826600A369F8 /* AnimalDescVM.swift */; };
 		5236AB132BE3828000A369F8 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 5236AB122BE3828000A369F8 /* GoogleGenerativeAI */; };
 		5236AB182BE3A61D00A369F8 /* AudioPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB172BE3A61D00A369F8 /* AudioPlayerHelper.swift */; };
+		5236AB1A2BE3B02000A369F8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB192BE3B02000A369F8 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		5236AB0C2BE379A500A369F8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		5236AB0F2BE3826600A369F8 /* AnimalDescVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDescVM.swift; sourceTree = "<group>"; };
 		5236AB172BE3A61D00A369F8 /* AudioPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerHelper.swift; sourceTree = "<group>"; };
+		5236AB192BE3B02000A369F8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				5236AABB2BE3719600A369F8 /* ContentView.swift */,
 				5236AAD62BE3732600A369F8 /* HomeView.swift */,
 				5236AB0C2BE379A500A369F8 /* DetailView.swift */,
+				5236AB192BE3B02000A369F8 /* SettingsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				5236AAD12BE372D600A369F8 /* Animals.swift in Sources */,
 				5236AABC2BE3719600A369F8 /* ContentView.swift in Sources */,
 				5236AB0D2BE379A500A369F8 /* DetailView.swift in Sources */,
+				5236AB1A2BE3B02000A369F8 /* SettingsView.swift in Sources */,
 				5236AAD72BE3732600A369F8 /* HomeView.swift in Sources */,
 				5236AABA2BE3719600A369F8 /* EduAnimalSwiftDevApp.swift in Sources */,
 				5236AAD42BE372FE00A369F8 /* MotionAnimationView.swift in Sources */,
