@@ -33,6 +33,7 @@
 		5236AB132BE3828000A369F8 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 5236AB122BE3828000A369F8 /* GoogleGenerativeAI */; };
 		5236AB182BE3A61D00A369F8 /* AudioPlayerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB172BE3A61D00A369F8 /* AudioPlayerHelper.swift */; };
 		5236AB1A2BE3B02000A369F8 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5236AB192BE3B02000A369F8 /* SettingsView.swift */; };
+		5236AB1C2BE47BCD00A369F8 /* quiz.json in Resources */ = {isa = PBXBuildFile; fileRef = 5236AB1B2BE47BCD00A369F8 /* quiz.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +63,7 @@
 		5236AB0F2BE3826600A369F8 /* AnimalDescVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDescVM.swift; sourceTree = "<group>"; };
 		5236AB172BE3A61D00A369F8 /* AudioPlayerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerHelper.swift; sourceTree = "<group>"; };
 		5236AB192BE3B02000A369F8 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5236AB1B2BE47BCD00A369F8 /* quiz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quiz.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				5236AAE42BE3735100A369F8 /* AnimalSounds */,
 				5236AAC92BE3720000A369F8 /* animals.json */,
+				5236AB1B2BE47BCD00A369F8 /* quiz.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				5236AAC12BE3719700A369F8 /* Preview Assets.xcassets in Resources */,
 				5236AABE2BE3719700A369F8 /* Assets.xcassets in Resources */,
 				5236AAEA2BE3735100A369F8 /* eagle.mp3 in Resources */,
+				5236AB1C2BE47BCD00A369F8 /* quiz.json in Resources */,
 				5236AAE92BE3735100A369F8 /* duck.mp3 in Resources */,
 				5236AAF02BE3735100A369F8 /* wolf.mp3 in Resources */,
 				5236AAE62BE3735100A369F8 /* chicken.mp3 in Resources */,

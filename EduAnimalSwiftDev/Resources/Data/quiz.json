@@ -1,0 +1,63 @@
+[
+    {
+        "image": "cat.jpg",
+        "options": ["Wolf", "Dog", "Elephant", "Cat"],
+        "correctAnswer": "Cat"
+    },
+    {
+        "image": "chicken.jpg",
+        "options": ["Chicken", "Tiger", "Cat", "Elephant"],
+        "correctAnswer": "Chicken"
+    },
+    {
+        "image": "cow.jpg",
+        "options": ["Elephant", "Lion", "Cow", "Horse"],
+        "correctAnswer": "Cow"
+    },
+    {
+        "image": "dog.jpg",
+        "options": ["Monkey", "Cat", "Goat", "Dog"],
+        "correctAnswer": "Dog"
+    },
+    {
+        "image": "duck.jpg",
+        "options": ["Horse", "Duck", "Cow", "Cat"],
+        "correctAnswer": "Duck"
+    },
+    {
+        "image": "eagle.jpg",
+        "options": ["Wolf", "Tiger", "Eagle", "Chicken"],
+        "correctAnswer": "Eagle"
+    },
+    {
+        "image": "elephant.jpg",
+        "options": ["Lion", "Tiger", "Bear", "Elephant"],
+        "correctAnswer": "Elephant"
+    },
+    {
+        "image": "goat.jpg",
+        "options": ["Cow", "Goat", "Duck", "Dog"],
+        "correctAnswer": "Goat"
+    },
+    {
+        "image": "horse.jpg",
+        "options": ["Goat", "Horse", "Wolf", "Cat"],
+        "correctAnswer": "Horse"
+    },
+    {
+        "image": "lion.jpg",
+        "options": ["Lion", "Elephant", "Tiger", "Wolf"],
+        "correctAnswer": "Lion"
+    },
+    {
+        "image": "monkey.jpg",
+        "options": ["Cow", "Monkey", "Chicken", "Cat"],
+        "correctAnswer": "Monkey"
+    },
+    {
+        "image": "wolf.jpg",
+        "options": ["Goat", "Lion", "Wolf", "Elephant"],
+        "correctAnswer": "Wolf"
+    },
+    
+]
