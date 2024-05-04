@@ -1,63 +1,87 @@
 [
     {
+        "id": "cat",
         "image": "cat.jpg",
         "options": ["Wolf", "Dog", "Elephant", "Cat"],
-        "correctAnswer": "Cat"
+        "correctAnswer": "Cat",
+        "color": true
     },
     {
+        "id": "chicken",
         "image": "chicken.jpg",
         "options": ["Chicken", "Tiger", "Cat", "Elephant"],
-        "correctAnswer": "Chicken"
+        "correctAnswer": "Chicken",
+        "color": true
     },
     {
+        "id": "cow",
         "image": "cow.jpg",
         "options": ["Elephant", "Lion", "Cow", "Horse"],
-        "correctAnswer": "Cow"
+        "correctAnswer": "Cow",
+        "color": true
     },
     {
+        "id": "dog",
         "image": "dog.jpg",
         "options": ["Monkey", "Cat", "Goat", "Dog"],
-        "correctAnswer": "Dog"
+        "correctAnswer": "Dog",
+        "color": true
     },
     {
+        "id": "duck",
         "image": "duck.jpg",
         "options": ["Horse", "Duck", "Cow", "Cat"],
-        "correctAnswer": "Duck"
+        "correctAnswer": "Duck",
+        "color": true
     },
     {
+        "id": "eagle",
         "image": "eagle.jpg",
         "options": ["Wolf", "Tiger", "Eagle", "Chicken"],
-        "correctAnswer": "Eagle"
+        "correctAnswer": "Eagle",
+        "color": true
     },
     {
+        "id": "elephant",
         "image": "elephant.jpg",
         "options": ["Lion", "Tiger", "Bear", "Elephant"],
-        "correctAnswer": "Elephant"
+        "correctAnswer": "Elephant",
+        "color": true
     },
     {
+        "id": "goat",
         "image": "goat.jpg",
         "options": ["Cow", "Goat", "Duck", "Dog"],
-        "correctAnswer": "Goat"
+        "correctAnswer": "Goat",
+        "color": true
     },
     {
+        "id": "horse",
         "image": "horse.jpg",
         "options": ["Goat", "Horse", "Wolf", "Cat"],
-        "correctAnswer": "Horse"
+        "correctAnswer": "Horse",
+        "color": true
     },
     {
+        "id": "lion",
         "image": "lion.jpg",
         "options": ["Lion", "Elephant", "Tiger", "Wolf"],
-        "correctAnswer": "Lion"
+        "correctAnswer": "Lion",
+        "color": true
     },
     {
+        "id": "monkey",
         "image": "monkey.jpg",
         "options": ["Cow", "Monkey", "Chicken", "Cat"],
-        "correctAnswer": "Monkey"
+        "correctAnswer": "Monkey",
+        "color": true
     },
     {
+        "id": "wolf",
         "image": "wolf.jpg",
         "options": ["Goat", "Lion", "Wolf", "Elephant"],
-        "correctAnswer": "Wolf"
+        "correctAnswer": "Wolf",
+        "color": true
     },
     
 ]
